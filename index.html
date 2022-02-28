@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name=”viewport” content=”width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="/css/style.css">
+    <title></title>
+    <!---BootStrap--->
+    <!--CSS STYLESHEET-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <link rel="icon" href="https://sketch.metademolab.com/share/290b67e86d034603a5ea32a0a0959631/standard_walk">
+   <style>
+     body{
+       background-color:#ECF4F0;
+       margin-right:0px;
+       font-family: 'Merriweather', serif;
+     }
+     .navr{
+       margin-top: 0px;
+       margin-left: 0px;
+       height:70px;
+       width:1106.7px;
+       background-color:#041A1A;
+
+     }
+     .no_hov:hover {
+       background-color: #84b560;
+
+     }
+     .dropdown-content {
+       display: none;
+       position: absolute;
+       background-color: #f9f9f9;
+       min-width: 160px;
+       box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+       z-index: 2;
+     }
+     .dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+
+}
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+.drop:hover .dropdown-content {
+  display: block;
+}
+.drop{
+  position: relative;
+  padding-left: 260px;
+}
+     .top-image{
+       width:1106.7px;
+       height:550px;
+     }
+     .corner{
+       z-index:1;
+       position: relative;
+       top:-600px;
+       right:-995px;
+       height: 110px;
+       width: 110px;
+     }
+     /*Container*/
+     .cont{
+       margin-top: -110px;
+     }
+     .abou{
+       text-align: center;
+       padding-top: 50px;
+
+     }
+     @keyframes mymove {
+       from {left: -900px;}
+       to {left: -10px;}
+     }
+     .ani{
+       animation-timing-function: ease-in;
+       position: relative;
+       animation: mymove 7s ;
+     }
+     .ami{
+       animation-timing-function: ease-in;
+       position: relative;
+       animation: move 5s ;
+     }
+     @keyframes move {
+       from {left: -900px;}
+       to {left: -10px;}
+     }
+     /*Last*/
+     .last{
+       margin-top:50px;
+       height:50px;
+       width:1106.3px;
+       background-color: #002511;
+cursor:
+     }
+
+
+     </style>
+  </head>
+  <body>
+    <!---Nav Bar-->
+    <div class="navr">
+    <ul  class="nav justify-content-center bar" style="padding-top:13px; font-size:25px;">
+      <li class="nav-item">
+        <a class="nav-link  no_hov " style="color:white;" href="#" >Home </a>
+      </li>
+      <li class="nav-item">
+          <a class="nav-link  no_hov" style="color:white;" href="#about">About</a>
+        </li>
+
+        <li class="nav-item">
+            <a class="nav-link  no_hov" style="color:white;" href="Faq.html">FAQs</a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link  no_hov"style="color:white;"  href="#contact">Contact</a>
+            </li>
+            <li class="nav-item ">
+              <div class="drop">
+          <button style=" cursor: pointer; background-color:#041A1A; color:white; width:160px;"  class="dropbtn no_hov">Categories</button>
+              <div class="dropdown-content">
+      <a href="age.html#cough">Cough/Cold</a>
+      <a href="age.html#tonsils">Tonsils</a>
+      <a href="age.html#asthma">Asthma</a>
+      <a href="age.html#typhoid">Typhoid</a>
+      <a href="age.html#diarrhoea">Diarrhoea</a>
+      </div>
+    </div>
+            </li>
+
+            </ul>
+    </div>
+    <!--image-->
+      <img src="images/top.png" class="top-image" alt="">
+      <img src="images/corner.png" class="corner" alt="">
+      <img src="images/bigCorn.png" style="z-index:0.7; position:relative; right:-790px; top:-500px; width:200px;height:200px;"alt="">
+      <img src="images/Medi.png" style="z-index:1; position:relative; top:-570px; left:79px; width:270px;height:200px;" alt="">
+      <img src="images/bottom.png"  style="z-index:1.6; position:relative; width:250px;height:250px;left:-600px; top:-255px;"alt="">
+        <img src="images/corner.png" style="z-index:2; position:relative; width:100px;height:100px;left:-810px; top:-260px;" alt="">
+        <img src="images/corner.png" style="z-index:2; position:relative; width:100px;height:100px;left:-860px; top:-260px;transform: rotate(180deg);" alt="">
+  <h1  style="z-index:1; position:relative; font-size:100px; top:-600px; margin-left:300px; color:#B3F8CE;">Dr. Medicare</h1>
+  <img src="images/last.png"style="height:100px; width:1105px;z-index:1; position:relative;top:-480px;" alt="">
+        <img src="images/care.png" style="height:38.2px;width:1105px; z-index:1.5; position:relative;top:-540px;" alt="">
+        <pre  class="ami" style="z-index:1; position:relative; font-size:20px; top:-570px; margin-left:200px; color:WHITE;">YOUR HEALTHCARE SOLUTION             24/7 HELPLINE NUMBER - 1900 3560 3500</pre>
+<!--About-->
+<div class="container cont" id="about">
+  <div class="row">
+    <div class="col-sm">
+    <img class="ani" src="images/doc.png" style="height:370px;width:320px;"alt="">
+    </div>
+    <div class="col-sm">
+    <h1 class="abou ani">ABOUT</h1>
+    <h4 class="abou ani">Dr.Medicare is a one stop solution created so that you can compare and ananlyse the price of the same medicine side by side and it helps you choose the more affordable option.</h4>
+    <h4  class="ani"style="padding-top:50px;">Side effect    |    Dietrary Restrictions    |    FAQs</h4>
+  </div>
+  </div>
+</div>
+<!--Middle-->
+<img src="images/middle.png" class="top-image" style="margin-top:300px;"alt="">
+<!--Next Block-->
+<img src="images/doc2.png" style="width:400px; height:270px; margin-left:350px;" alt="">
+<h3 style="text-align:center; font-size:40px;">Medical Ethics is all about !!</h3>
+<img src="images/frame.png" style="height:650px; width:1106.7px;" alt="">
+<h3 style="font-family: Consolas; z-index: 1; position: relative; top:-430px; margin-left:600px;font-size:30px; font-weight:bolder;  font-style: italic;">Justice</h3>
+<!--last-->
+<div class="last" id="contact">
+  <h2 style="color:white; text-align:center; padding-top:3px;">CONTACT</h2>
+</div>
+<div class="container cont" style="margin-top:200px;">
+  <div class="row">
+    <div class="col-sm">
+  <h3 style="color:#054E26;">FOLLOW US</h3>
+<div class="" style="padding-top:20px;">
+  <img style="height:54px; weight:54px;" src="images/fb.png" alt="">
+  <img style="height:50px; weight:50px;" src="images/ins.png" alt="">
+  <img style="height:50px; weight:50px;" src="images/ln.png" alt="">
+  <img style="height:52px; weight:52px;" src="images/tw.png" alt="">
+</div>
+
+    </div>
+    <div class="col-sm"  style="margin-left:700px; margin-top:-130px;color:#054E26;">
+    <h3>CONTACTS</h3>
+    <br>
+  <p>Info@mysite.com  </p>
+  <p>Tel: 123-456-78</p>
+  <p>90 500 Terry</p>
+  <p>Francisco St San</p>
+  <p> Francisco, CA94158</p>
+
+  </div>
+  </div>
+</div>
+  </body>
+</html>
